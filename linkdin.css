@@ -1,0 +1,29 @@
+p{
+    font-family: arial;
+    text-align: center;
+
+    
+    
+}
+.link{
+    font-size: 30px;
+    color:rgb(101, 134, 243);
+    margin-right: 800px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.in{
+    background-color: rgb(101, 134, 243);
+    color:white;}
+
+.Make{
+    text-align: center;
+    font-size: 22px;
+    margin-right: 1px;
+    
+    }
+    .di{
+         vertical-align: middle;
+        display: inline-block
+    
+    }
