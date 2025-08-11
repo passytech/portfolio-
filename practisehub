@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Facebook Profile</title>
+      <style>
+        p{
+            font-family: arial;
+        }
+        div{
+            font-family:arial;
+        }
+        .macon{
+            border:none;
+            box-shadow: 1px 2px 6px rgba(0,0,0,0.2);
+            margin-top: 20px;
+            margin-left: 20px;
+            width: 500px;
+            
+        }
+        .img{
+            width:50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 40px;
+        }
+        .flex{
+            display:flex;
+            flex-direction:row;
+             justify-content:space-between;
+             align-items:center;
+             width: 300px;
+             margin-left: 15px;
+             margin-top: 15px;
+        }
+        .secon{
+            width: 50px;
+        }
+        .text{
+           
+           margin-right: 100px;
+           line-height: 6px;
+           
+        }
+        .follow{
+            background-color: rgb(77, 77, 219);
+            color:white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 15px;
+            padding-left: 15px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .ol{
+            font-weight: bold;
+        }
+        .gray{
+            font-size:14px;
+            color:rgb(146, 144, 144)
+        }
+      </style>
+    </head>
+    <body>
+        <div class="macon">
+        <div class="flex">
+        <div class="secon"> 
+            <img src="lion.jpg" class="img">  
+          </div>
+          <div class="text">
+           <p class="ol"> Oliver</p> 
+            <p class="gray">the lion</p>
+            <p class="gray">popular</p>
+          </div>
+          <div class="follow">
+            Follow
+            </div>
+          </div>
+
+                  <div class="flex">
+        <div class="secon"> 
+            <img src="tiger.webp" class="img">  
+          </div>
+          <div class="text">
+           <p class="ol"> Rex</p> 
+            <p class="gray">the king</p>
+            <p class="gray">popular</p>
+          </div>
+          <div class="follow">
+            Follow
+            </div>
+          </div>
+
+           <div class="flex">
+        <div class="secon"> 
+            <img src="images.jpg" class="img">  
+          </div>
+          <div class="text">
+           <p class="ol"> Mimi</p> 
+            <p class="gray">the cat</p>
+            <p class="gray">popular</p>
+          </div>
+          <div class="follow">
+            Follow
+            </div>
+          </div>
+        </div>
+    </body>
+</html>
